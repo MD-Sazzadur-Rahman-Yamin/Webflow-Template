@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box
 }
 
 body {
@@ -131,6 +132,57 @@ main {
     color: #4E47FF;
 }
 
+/* Review section */
+
+#review {
+    padding: 50px 80px;
+    margin-top: 116px;
+}
+
+#review h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 14px;
+    padding: 24px;
+
+}
+
+.review-card-user {
+    display: flex;
+    align-items: center;
+}
+
+.review-card-user img {
+    border-radius: 50px;
+}
+
+.review-card-user div {
+    margin-left: 12px;
+}
+
+.review-card-user div h6 {
+    color: #757575;
+    font-weight: 700;
+}
+
+.review-card-user div p {
+    color: #b3b3b3;
+    font-weight: 400;
+}
+
 /* Get in Touch section */
 
 #touch {
@@ -177,17 +229,17 @@ main {
 
 /* Footer section  */
 
-footer{
-        text-align: center;
+footer {
+    text-align: center;
     background-color: white;
-        padding: 116px auto !important;
+    padding: 116px auto !important;
 
 }
 
-.footer{
+.footer {
     text-align: center;
     background-color: white;
-
+    margin: auto;
     max-width: 37%;
 }
 
@@ -199,16 +251,17 @@ footer{
     margin-bottom: 8px;
 }
 
-#nav ul{
+#nav ul {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
 }
-#nav ul li{
+
+#nav ul li {
     list-style: none;
 }
 
-#nav ul li a{
+#nav ul li a {
     color: #8987A1;
     text-decoration: none;
 }
