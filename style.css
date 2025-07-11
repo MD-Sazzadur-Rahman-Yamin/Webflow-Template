@@ -275,14 +275,11 @@ main {
 footer {
     text-align: center;
     background-color: white;
-    padding: 116px auto !important;
-
 }
 
 .footer {
-    text-align: center;
-    background-color: white;
     margin: auto;
+    padding: 100px 0px;
     max-width: 37%;
 }
 
@@ -292,6 +289,10 @@ footer {
     font-weight: 900;
     color: #4E47FF;
     margin-bottom: 8px;
+}
+
+.footer p{
+    margin-bottom: 20px;
 }
 
 #nav ul {
