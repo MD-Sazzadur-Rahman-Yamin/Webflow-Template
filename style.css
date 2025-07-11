@@ -5,10 +5,10 @@
 }
 
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .inter-normal {
@@ -19,16 +19,16 @@
 }
 
 .btn {
-    color:white;
+    color: white;
     background-color: #4E47FF;
     padding: 12px 36px;
     border: 0;
     border-radius: 25px;
 }
 
-.p{
+.p {
     font-size: 24px;
-    color:rgba(37, 36, 50, 0.500);
+    color: rgba(37, 36, 50, 0.500);
 }
 
 /* Header Section */
@@ -40,7 +40,7 @@ header {
 
 /* Nav Section */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,13 +55,13 @@ nav h3 {
 
 /* Hero Section */
 
-#hero{
+#hero {
     text-align: center;
     padding: 160px 267px 200px;
 }
 
 
-#hero h1{
+#hero h1 {
     color: #252432;
     font-size: 65px;
     font-weight: 700;
@@ -77,23 +77,52 @@ main {
 
 /* Action section */
 
-#action{
+#action {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 116px 0px;
+    margin-top: 116px;
 }
 
-.action-content h2{
+.action-content h2 {
     font-size: 42px;
     font-weight: 700;
     color: #252432;
 }
-.action-content p{
+
+.action-content p {
     margin: 23px 0px;
 }
 
 .action-img img {
     border-radius: 48px;
+}
+
+/* Productive */
+
+#productive {
+    background-color: rgba(77, 71, 255, 0.100);
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 80px;
+    margin-top: 116px;
+}
+
+#productive h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.productive-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.productive-card h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
 }
 
