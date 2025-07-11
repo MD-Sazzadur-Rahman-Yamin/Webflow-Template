@@ -32,6 +32,14 @@ body {
     border-radius: 25px;
 }
 
+.btn:hover{
+    color: black;
+    background-color: yellow;
+    padding: 14px 40px;
+    border: 0;
+    border-radius: 25px;
+}
+
 .p {
     font-size: 24px;
     color: rgba(37, 36, 50, 0.500);
@@ -250,6 +258,14 @@ main {
     color: white;
     background-color: #4E47FF;
     padding: 19px 101px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.form input[type="submit"]:hover {
+    color: black;
+    background-color: yellow;
+    padding: 22px 105px;
     border: 0;
     border-radius: 25px;
 }
