@@ -183,6 +183,33 @@ main {
     font-weight: 400;
 }
 
+/* Focus section */
+
+#focus {
+    text-align: center;
+    background-color: white;
+    padding: 70px 150px;
+}
+
+#focus h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#focus p {
+    margin: 20px 0px;
+}
+
+#focus button {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#focus img{
+    border-radius: 48px;
+}
+
 /* Get in Touch section */
 
 #touch {
